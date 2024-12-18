@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/movie_database
+    username: ratty
+    password: ratingmovies123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+  application:
+    name: MoviesBackend
